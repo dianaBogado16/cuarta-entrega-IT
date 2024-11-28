@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <title>Afiliación</title>
+</head>
+
+<body>
+
+  <h1 class="titulo bordes-titulo">Vení al Gym! 💪🏽</h1>
+
+  <form action="#">
+    <fieldset class="contenedor-centrado"> <!-- El fieldset debe ocupar lo que ocupe la caja de datos a grupar -->
+
+      <legend class="subtitulos">🙋🏼‍♂️Datos Personales👀</legend>
+      <div>
+        <label for="lbl-nombre">Nombre:*</label>
+        <br>
+        <input class="input-modificado" id="lbl-nombre" type="text" required>
+      </div>
+
+      <div>
+        <label for="lbl-apellido">Apellido:*</label>
+        <br>
+        <input class="input-modificado" id="lbl-apellido" type="text" required>
+      </div>
+
+      <div>
+        <label for="lbl-documento">Documento:*</label>
+        <br>
+        <input class="input-modificado" id="lbl-documento" type="number" required minlength="8" maxlength="8">
+      </div>
+
+      <div>
+        <label for="lbl-nacionalidad">Nacionalidad:* </label>
+        <br>
+        <select id="lbl-nacionalidad" name="nacionalidad" required>
+          <option value="" disabled selected>- Seleccionar -</option>
+          <option value="opcion1">Argentina</option>
+          <option value="opcion2">Brasileña</option>
+          <option value="opcion3">Uruguaya</option>
+          <option value="opcion4">otro</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="descripcion">Contanos un poco de vos...</label>
+        <br>
+        <textarea class="input-info" name="descrip" id="descripcion"></textarea>
+      </div>
+
+      <div>
+        <p>Sexo: *</p>
+        <br>
+
+        <label>
+          <input type="radio" name="genero" value="femenino" required> Femenino
+        </label>
+
+        <label>
+          <input type="radio" name="genero" value="masculino" required> Masculino
+        </label>
+
+        <label>
+          <input type="radio" name="genero" value="otro" required> Otro
+        </label>
+      </div>
+
+    </fieldset>
+
+    <hr class="puntos">
+
+    <fieldset class="contenedor-contacto">
+      <legend class="subtitulos">📱Datos de Contacto📧</legend>
+
+      <div>
+        <label for="lbl-telefono">Teléfono:</label>
+        <br>
+        <input class="input-modificado" id="lbl-telefono" type="tel" placeholder="Código de área y número">
+      </div>
+
+      <div>
+        <label for="lbl-dire"> Dirección de correo electrónico: *</label>
+        <br>
+        <input class="input-modificado" id="lbl-dire" type="email" required placeholder="Ej: mail@gmail.com">
+      </div>
+
+    </fieldset>
+
+    <hr class="puntos">
+
+    <fieldset class="contenedor-actividades">
+      <legend class="subtitulos">🚴‍♀️Actividades🤸🏼‍♂️</legend>
+      <div>
+        <br>
+        <label class="contenedor-sombra fondo-bordo" for="">Por favor, indicá cuáles actividades te interesan.</label>
+        <br>
+        <br>
+        <label class="fondo-negro" for="">Sede Palermo: </label>
+        <br>
+        <br>
+        <input  type="checkbox" name="actividades" id="basquet">
+        <label class="input-dorado" for="">Básquet</label>
+        <input type="checkbox" name="actividades" id="boxeo">
+        <label class="input-dorado" for="">Boxeo</label>
+        <input type="checkbox" name="actividades" id="futol">
+        <label class="input-dorado" for="">Fútbol</label>
+        <input type="checkbox" name="actividades" id="tenis">
+        <label class="input-dorado" for="">Tenis</label>
+        <br>
+        <br>
+        <label class="fondo-negro" for="">Sede Rosario: </label>
+        <br>
+        <br>
+        <input type="checkbox" name="actividad" id="basquet">
+        <label class="input-dorado" for="">Básquet</label>
+        <input type="checkbox" name="actividad" id="futbol">
+        <label class="input-dorado" for="">Fútbol</label>
+        <input type="checkbox" name="actividad" id="rugby">
+        <label class="input-dorado" for="">Rugby</label>
+        <input type="checkbox" name="actividad" id="voley">
+        <label class="input-dorado" for="">Voley</label>
+      </div>
+    </fieldset>
+
+    <div class="centrar-texto">
+      <input type="checkbox" name="condiciones" id="acepto" required>
+      <label class="texto-blanco">Acepto las condiciones*</label>
+      <br>
+      <input type="checkbox" name="condiciones" id="novedades">
+      <label class="texto-blanco">Deseo recibir novedades</label>
+
+      <p class="texto-blanco"><b>*</b>: campo obligatorio. </p>
+
+
+    </div>
+
+    <div class="edicion-botones">
+      <button class="botones" type="submit">Iniciar afiliación</button>
+      <button class="botones" type="reset">Restablecer</button>
+    </div>
+
+  </form>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

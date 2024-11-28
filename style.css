@@ -1,0 +1,154 @@
+body {
+    background-color: #1F2023;
+}   
+
+input:focus {
+    background-color: #4D6D63; 
+
+}
+
+input::placeholder {
+    text-align: right;
+}
+
+textarea:focus {
+    background-color: #4D6D63;
+}
+
+
+select {
+    height: 30px;
+    width: 500px;
+}
+
+.titulo {
+    font-family: "Poppins", sans-serif;
+    color: #E8EAED;
+    background-color: #1F2023;
+    text-align: center;
+    font-weight: Black 900;
+    font-size: 40px; 
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 20px;    
+}
+
+
+.bordes-titulo {
+    border-top: 15px solid #4D6D63;
+    border-bottom: 20px solid #4D6D63;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent ;
+}
+
+
+.subtitulos {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    background-color: #4D6D63;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+legend {
+    text-align: left;
+}
+
+.contenedor-centrado {
+    text-align: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    background-color: #D6E2DE;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contenedor-contacto {
+    text-align: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    background-color: #D6E2DE;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contenedor-actividades {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #D6E2DE;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+
+
+
+.input-modificado {
+    height: 30px;
+    width: 500px;
+}
+    
+
+
+
+.input-info {
+    height: 180px; /* alto */
+    width: 500px; /* ancho  */
+}
+
+.puntos {
+    border: 12px dotted #a6c1b9;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 300px;
+}
+
+
+.botones {
+    background-color: #2B3D37;
+    color: #96BDB7;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    border:#96BDB7;
+}
+
+
+button {
+    margin-right: 20px;
+}
+
+.edicion-botones {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.texto-blanco {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.centrar-texto {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+

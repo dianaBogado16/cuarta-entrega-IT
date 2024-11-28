@@ -1,0 +1,103 @@
+.titulo {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    background-color: #a55eea; /* lila */
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 70px;
+    color: #34e7e4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);    
+    margin-bottom: 4%;
+    border: black ;
+
+}
+
+.subtitulos {
+    background-color: #7C138C;  /* violeta  oscuro*/
+    border: black solid;
+}
+
+body {
+    background-image: url(imgs/ciudad.webp);
+}
+
+.fondo-negro {
+    background-color: black;
+}
+
+.contenedor-centrado {
+    background-image: url(imgs/maquina-gyms.webp);
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-family: "Exo", sans-serif;
+    font-size: 22px;
+    border-radius: 2%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);    
+    display: flex;
+    flex-direction: column;
+}
+
+.input-modificado{
+    height: 30px;
+    width: 450px;
+    margin-right: 20px;
+}
+
+.contenedor-contacto {
+    font-family: "Exo", sans-serif;
+    background-color: #34495e; /* azul medianoche */
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
+    display: flex;
+    flex-direction: row;
+    border-radius: 2% ;
+
+}
+
+
+.contenedor-actividades {
+    font-family: "Exo", sans-serif;
+    background-image: url(imgs/pesa-rusa.webp);
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+.botones {
+    /* aca van todas las cosas */
+    height: 40px;
+    background-color: #ff5e57; /* rojo coral */
+    transition: transform 0.3s, color 0.3s, background-color 0.3s; /* Transición suave */
+}
+
+.botones:hover {
+    transform: scale(1.1) rotate(5deg);
+    color: #00ffff; /* aqua */
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 30px #00ffff;
+}
+
+
+button {
+    margin-right: 20px;
+}
+
+
+
+
+.centrar-texto {
+   color: white;
+   font-family: "Exo", sans-serif;
+   font-size: 15px;
+}

@@ -1,0 +1,100 @@
+body {
+    background-color: #990000 ; /*  bordo oscuro*/
+}
+
+
+.titulo {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 300%;
+    background-color: #f39c12; /* dorado */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;    
+    border: 4px dashed black;
+}   
+
+.subtitulos {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    background-color: #121212;
+    color: #f39c12; /* dorado */
+}
+
+.contenedor-centrado {
+    background-color: #6e6e6e; /* gris claro */
+    font-family: "Merriweather", serif;
+    width: 50%;
+    background-image: url(imgs/pesas-hombre.webp);
+    color: white;
+    font-size: 22px;
+    
+}
+
+.contenedor-contacto {
+    background-color: #6e6e6e; /* gris claro */
+    font-family: "Merriweather", serif;
+    width: 50%;
+    background-image: url(imgs/pelota.webp);
+    color: white;
+    font-size: 22px;
+}
+
+.contenedor-actividades {
+    font-family: "Merriweather", serif;
+    width: 50%;
+    background-image: url(imgs/zumba.webp);
+    color: white;
+    font-size: 22px;
+    display: flex;
+}
+
+.fondo-negro {
+    background-color: black;
+}
+
+.fondo-bordo {
+    background-color: #990000 ; /* bordo oscuro */
+}
+
+.input-dorado{
+    background-color: #f39c12; /* dorado */
+}
+
+.centrar-texto {
+    margin-top: 20px ;
+    font-family: "Merriweather", serif;
+    color: white;
+}
+
+.input-modificado {
+    height: 30px;
+    width: 500px;
+}
+    
+hr {
+    display: none;
+}
+
+.botones {
+    background-color: #6e6e6e;  /* gris claro */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    height: 40px ; /* alto */
+    width:150px; /* ancho */
+    margin-right:20px ;
+    border: 2px dashed black;   
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #f39c12; /* dorado */
+    transform: scale(1.05); 
+}
+
+.edicion-botones {
+    text-align: center;
+}
